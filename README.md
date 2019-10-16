@@ -12,7 +12,7 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
 ## Description
 
-In this project you'll take take an almost completed e-commerce store and refactor the application to use the `Context API`.
+In this project you'll take an almost completed e-commerce store and refactor the application to use the `Context API`.
 
 ## Project Set Up
 
@@ -121,7 +121,7 @@ const { products, addItem } = useContext(ProductContext);
 
 - Inside of our new `CartContext` import `createContext` and create a new context named `CartContext`.
 
-**STEP 5 - Providing data with CartContext**
+**STEP 6 - Providing data with CartContext**
 
 - Let's go ahead and bring our newly created `CartContext` into our `App.js` and wrap all of our components inside of our `CartContext.Provider`. Make sure our `ProductContext.Provider` is still the root provider.
 
