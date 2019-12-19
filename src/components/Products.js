@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import ProductContext, { PersonContext } from '../context/ProductContext'
+import { ProductContext } from '../context/ProductContext'
 
 // Components
 import Product from './Product';
@@ -8,7 +8,7 @@ import Product from './Product';
 
 const Products = () => {
 
-	const { products, addItem } = useContext(PersonContext)
+	const { products, addItem } = useContext(ProductContext)
 
 	return (
 		<div className="products-container">
@@ -17,6 +17,7 @@ const Products = () => {
 					key={product.id}
 					product={product}
 					addItem={addItem}
+
 				/>
 			))}
 		</div>

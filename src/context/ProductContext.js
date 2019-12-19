@@ -3,6 +3,6 @@ import React, { createContext } from 'react';
 
 
 
-export const PersonContext = createContext();
-console.log(PersonContext)
+export const ProductContext = createContext();
+//console.log(ProductContext)
 
